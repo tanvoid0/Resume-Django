@@ -3,10 +3,7 @@ from django.shortcuts import render, get_object_or_404
 from django.template import Context
 from django.template.loader import get_template
 from django.views.generic.base import View
-from xhtml2pdf import pisa
 
-from Home.utils import render_to_pdf
-import io as StringIO
 from .models import *
 
 # Create your views here.
