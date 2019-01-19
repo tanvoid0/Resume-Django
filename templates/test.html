@@ -1,0 +1,9 @@
+<div class="row">
+{% for a in ar %}
+   {% if forloop.counter|divisibleby:2 %}
+        <div class="col-md-6">Even posts</div>
+      {% else %}
+        <div class="col-md-6">Odd posts</div>
+      {% endif %}
+    {% endfor %}
+</div>

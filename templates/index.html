@@ -1,0 +1,778 @@
+<!doctype html>
+<html>
+
+
+<!-- Mirrored from template.bulkstudio.com/classic/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Aug 2018 08:33:19 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>{{ info.name }}'s Portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    {% load static %}
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,300,300italic,700,500,500italic,700italic,400italic%7CLato:400,700,300'
+          rel='stylesheet' type='text/css'>
+
+    <!-- css -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css"/>
+    <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
+{#    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}" type="text/css"/>#}
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/owl.transitions.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css"/>
+
+     <!-- favicon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon"/>
+
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="box-one"></div>
+    <div class="box-two"></div>
+    <div class="box-three"></div>
+    <div class="box-four"></div>
+</div><!-- /.loader -->
+
+<nav class="menu">
+    <ul class="menu-ul">
+        <li><a href="#about"> About </a></li>
+        <li><a href="#skill-education"> Education </a></li>
+        <li><a href="#experience-testimonials"> Experience </a></li>
+        <li><a href="#portfolio"> Portfolio </a></li>
+        <li><a href="#contact"> Contact </a></li>
+    </ul><!-- /. menu list -->
+    <div class="menu-holder">
+        <div class="menu-bar"></div>
+    </div>
+</nav><!-- /. menu -->
+
+<!--    <section id="home" class="header" style="background-image: url('assets/images/cover.jpg')">-->
+<section id="home" class="header" style="background-image: url({% static 'image/pro6-bw.jpg' %})">
+    <div class="sector">
+        <div class="box">
+            <h1> T </h1> <!-- name first char -->
+        </div>
+        <h1 class="main-title"> {{ info.name }} </h1><!-- /. name -->
+        <h4 class="tagline"> {{ info.designation }}</h4><!-- /. profession -->
+    </div>
+</section> <!-- /. header/cover -->
+
+<section id="about">
+    <!-- Big Section Background Title -->
+    <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">
+        about</h1><!-- /. large title -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-8">
+
+                <div class="section-holder texture">
+                    <!-- draw line art -->
+                    <div class="line-art-top">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.top line -->
+                    <div class="line-art-bottom">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.bottom line -->
+                    <div class="line-art-left">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.left line -->
+                    <div class="line-art-right">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.right line -->
+
+                    <div class="img-holder">
+                        <img src="{% static 'image/pro1-bw.jpg' %}" class="img-responsive img-circle" alt="John Doe">
+                    </div>
+                    <div class="sep-mini"></div>
+                    <h4> Name: {{ info.name }} </h4>
+                    <h4> Date of birth: {{  info.dob  }} </h4>
+                    <h4> Nationality: {{ info.nationality }} </h4>
+
+                    <div class="social-links">
+                        {% for social in socials %}
+                        <a href="{{ social.link }}" target="_blank">
+                            <ion-icon name="{{ social.icon }}" size="large"></ion-icon>
+                        </a>
+                        {% endfor %}
+                    </div><!-- /.social-links -->
+                    <!-- id used as tooltip title -->
+                    <a target="_blank" class="tooltip-cl cv-download" data-tooltip="Download CV"
+                       href="{% static 'file/resume.pdf' %}"> <ion-icon name="download" size="large"></ion-icon> </a>
+
+                </div><!-- /.section-holder -->
+            </div><!-- /. row -->
+
+            <!-- /.col-sm-4 -->
+            <div class="col-sm-8 col-sm-pull-4">
+                <div class="section-holder">
+                    <!-- short bio -->
+                    <div class="icon-holder i-size-small">
+                        <ion-icon name="ios-create"></ion-icon>
+                    </div>
+                    <h3 class="section-title"> About Me </h3>
+                    <p>
+                        {{ info.about }}
+                    </p>
+
+                    <!-- hobbies -->
+                    <div class="icon-holder i-size-small">
+                        <ion-icon name="logo-game-controller-b"></ion-icon>
+                        <ion-icon name="ios-bulb"></ion-icon>
+                        <ion-icon name="ios-musical-note"></ion-icon>
+                        <ion-icon name="ios-videocam"></ion-icon>
+                    </div>
+                    <h4> Hobbies </h4>
+                    <!--                        <p> bicycling | gaming | hiking | photography </p>-->
+                    <p>
+                        {% for hobby in hobbies %}
+                            {{ hobby }} |
+                        {% endfor %}
+
+                    </p>
+
+                </div><!-- /.section-holder -->
+            </div><!-- /.col -->
+        </div><!-- /. row -->
+    </div><!-- /. container -->
+</section><!-- /.about -->
+
+<section id="skill-education">
+    <!-- Big Section Background Title -->
+    <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">
+        education</h1><!-- /. large title -->
+
+    <div class="container">
+        <div class="row">
+            <!-- skills -->
+            <div class="col-sm-4" data-toggle="tooltip" data-placement="top" title="Drag Left or right to see more!!">
+                <div class="section-holder texture">
+                    <!-- draw line art -->
+                    <div class="line-art-top">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.top line -->
+                    <div class="line-art-bottom">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.bottom line -->
+                    <div class="line-art-left">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.left line -->
+                    <div class="line-art-right">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.right line -->
+
+                    <!-- skills -->
+                    <div class="icon-holder i-size-big">
+                        <ion-icon name="ios-star-outline"></ion-icon>
+                    </div>
+
+                    <h3> Skills </h3>
+
+                    <div class="skill-holder">
+                        {% for skill in skills %}
+                            <div class="skill-area">
+                                <h4 class="skill-title"> {{ skill.name }} </h4>
+                                <!-- /.skill type name -->
+
+                                {% for sub_skill in skill.sub_skill_set.all %}
+
+                                    <div class="skillbar clearfix" data-percent="<?php echo $value; ?>%">
+                                        <div class="skillbar-title">
+                                            <span>{{ sub_skill.name }}</span>
+                                        </div>
+                                        <div class="skillbar-bg">
+                                        </div>
+                                        <div class="skillbar-bar to-animate">
+                                        </div>
+                                        <div class="skill-bar-percent">
+                                            {{ sub_skill.value }}
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        {% endfor %}
+                        Scroll Here!
+                    </div> <!-- /.skill-holder -->
+                </div> <!-- /.section-holder -->
+            </div> <!-- /.col-sm-4 -->
+
+            <!-- education -->
+            <div class="col-sm-8">
+                <div class="section-holder">
+                    <div class="icon-holder i-size-big">
+{#                        <i class="ion-ios-lightbulb-outline"></i>#}
+                        <ion-icon name="ios-bulb"></ion-icon>
+                    </div>
+                    <h3> Education </h3>
+                    <div class="time-line">
+                        <div class="row">
+                            {% for education in educations %}
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            {{ education.start }} - {{ education.end }}
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn">
+                                            <ion-icon name="radio-button-off"></ion-icon>
+                                        </div>
+                                        <h4 class="time-title">
+                                            {{ education.institution }}
+                                        </h4>
+                                        <h5 class="time-semitag"> {{ education.degree }} </h5>
+                                        <p>
+                                            {{ education.description }}
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12 -->
+                            {% endfor %}
+                        </div><!-- /.row -->
+                    </div><!-- /.time-line -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.section-holder -->
+            <br>
+            <div class="col-sm-8">
+                <div class="section-holder">
+                    <div class="icon-holder i-size-big">
+                        <ion-icon name="bulb"></ion-icon>
+                    </div>
+                    <h3> Training </h3>
+                    <div class="time-line">
+                        <div class="row">
+                            {% for training in trainings %}
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            {{ training.pass_year }}
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn">
+                                            <ion-icon name="radio-button-off"></ion-icon>
+                                        </div>
+                                        <h4 class="time-title">
+                                            {{ training.institution }}
+                                        </h4>
+                                        <h5 class="time-semitag"> {{ training.name }} </h5>
+                                        <p>
+                                            Topics covered:
+                                            {% for topic in  training.training_topic_set.all %}
+                                                {{ topic.topic }},
+                                            {% endfor %}
+                                        </p>
+                                    </div>
+                                </div><!-- /.col-md-12
+                            {% endfor %}
+                        </div> /.row -->
+                    </div><!-- /.time-line -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.section-holder -->
+        </div><!-- /.col-md-8 -->
+    </div><!-- /.container -->
+    </div>
+</section><!-- /.skill & education -->
+
+<section id="experience-testimonials">
+    <!-- Big Section Background Title -->
+    <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">
+        experience</h1><!-- /. large title -->
+
+    <div class="container">
+        <div class="row">
+            <!-- work experience -->
+            <div class="col-sm-8">
+                <div class="section-holder">
+                    <div class="icon-holder i-size-big">
+                        <ion-icon name="ios-briefcase"></ion-icon>
+                    </div>
+                    <h3> Work Experience </h3>
+                    <div class="time-line">
+                        <div class="row">
+                            {% for work in works %}
+                                <div class="col-sm-12">
+                                    <div class="time-item">
+                                        <div class="time-year">
+                                            {{ work.start }} - {{ work.end }}
+                                        </div>
+                                        <div class="icon-holder-time wow fadeIn">
+                                            <ion-icon name="radio-button-off"></ion-icon>
+                                        </div>
+                                        <h4 class="time-title">
+                                            {{ work.institution }}
+                                        </h4>
+                                        <h5 class="time-semitag"> {{ work.role }} </h5>
+                                        <p>
+                                            {{ work.description }}
+                                        </p>
+                                    </div>
+                                    <div class="work-item-icon">
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div><!-- /.time-line -->
+                    </div><!-- /.row -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.col-md-8 -->
+
+            <!-- testimonials -->
+            <div class="col-sm-4">
+                <div class="section-holder texture">
+
+                    <!-- draw line art -->
+                    <div class="line-art-top">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.top line -->
+                    <div class="line-art-bottom">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.bottom line -->
+                    <div class="line-art-left">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.left line -->
+                    <div class="line-art-right">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.right line -->
+
+                    <div class="icon-holder i-size-big">
+                        <ion-icon name="ios-chatboxes"></ion-icon>
+                    </div>
+
+                    <h3> Testimonials </h3>
+                    <div class="testi-holder owl-carousel owl-theme">
+                        {% for testimonial in testimonials %}
+                            <div class="testi-item">
+                                <img src="{% static 'images/testimonial/' %}{{ testimonial.image }}" class="img-circle" alt="Anthony Doe"/>
+                                <p> {{ testimonial.message }} </p>
+                                <div class="testi-bottom">
+                                    <div class="i-size-small testi-icon">
+                                        <ion-icon name="ios-chatbubbles"></ion-icon>
+                                    </div>
+                                    <h5> {{ testimonial.name }} </h5>
+                                    <p> {{ testimonial.designation }} </p>
+                                </div>
+                            </div><!-- /.testi-item -->
+                        {% endfor %}
+                    </div><!-- /.testi-holder -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.col-md-4 -->
+        </div><!-- /.row -->
+    </div><!-- container -->
+</section><!-- work experience & testimonials -->
+
+<section id="work-process">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="section-holder">
+                    <div class="text-center">
+                        <div class="icon-holder-center i-size-big">
+                            <ion-icon name="ios-pulse"></ion-icon>
+                        </div>
+                    </div>
+                    <h3 class="text-center"> Work Process </h3>
+
+                    <ul class="process">
+                        <li class="wow fadeIn" data-wow-delay=".15s">
+                            <div class="icon-process i-size-med">
+                                <ion-icon name="logo-ionic"></ion-icon>
+                            </div>
+                            <h4>Discover</h4>
+                            <h6 class="step">1</h6>
+                        </li><!-- /.process item -->
+
+                        <li class="wow fadeIn" data-wow-delay=".3s">
+                            <div class="icon-process i-size-med">
+                                <ion-icon name="ios-magnet"></ion-icon>
+                            </div>
+                            <h4>Idea</h4>
+                            <h6 class="step">2</h6>
+                        </li><!-- /.process item -->
+
+                        <li class="wow fadeIn" data-wow-delay=".45s">
+                            <div class="icon-process i-size-med">
+                                <ion-icon name="ios-cut"></ion-icon>
+                            </div>
+                            <h4>Design</h4>
+                            <h6 class="step">3</h6>
+                        </li><!-- /.process item -->
+
+                        <li class="wow fadeIn" data-wow-delay=".6s">
+                            <div class="icon-process i-size-med">
+                                <ion-icon name="ios-code-working"></ion-icon>
+                            </div>
+                            <h4>Develop</h4>
+                            <h6 class="step">4</h6>
+                        </li><!-- /.process item -->
+
+                        <li class="wow fadeIn" data-wow-delay=".75s">
+                            <div class="icon-process i-size-med">
+                                <ion-icon name="ios-clock"></ion-icon>
+                            </div>
+                            <h4>Test</h4>
+                            <h6 class="step">5</h6>
+                        </li><!-- /.process item -->
+
+                        <li class="wow fadeIn" data-wow-delay=".9s">
+                            <div class="icon-process i-size-med">
+                                <ion-icon name="airplane"></ion-icon>
+                            </div>
+                            <h4>Launch</h4>
+                            <h6 class="step">6</h6>
+                        </li><!-- /.process item -->
+
+                    </ul><!-- /.process -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.col-sm-12 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.work process -->
+
+    <section id="portfolio">
+        <!-- Big Section Background Title -->
+        <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">portfolio
+        </h1>
+
+        <div class="container">
+            <div class="section-holder">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="icon-holder i-size-big">
+                            <ion-icon name="ios-paper"></ion-icon>
+                        </div>
+                        <h3> My Works </h3>
+                    </div><!-- /.col-sm-12 -->
+                </div><!-- /.row -->
+
+                <div class="row">
+                <div class="port-holder">
+                    {% for project in projects %}
+
+                    <div class="owl-item">
+                            <div class="col-sm-12">
+                                <div class="box-it">
+                                    <a href="{% static 'image/project/' %}{{ project.image }}" class="mfp-image popup-it">
+                                        <img src="{% static 'image/project/' %}{{ project.image }}" class="img-responsive" alt="">
+                                        <div class="box-inner">
+                                            <div class="i-size-med">
+                                                <ion-icon name="photos"></ion-icon>
+                                            </div>
+                                            <h4 class="title">
+                                        {{ project.name }}
+                                    </h4>
+                                            <h5 class="tag"> {{ project.category }} </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div><!-- /.col-sm-12 -->
+                    </div> <!-- owl-item/portfolo item set -->
+                        {% endfor %}
+
+                    </div><!-- /.port-holder -->
+                    </div><!-- /.section-holder -->
+
+                </div><!-- /.row -->
+
+        </div><!-- /.container -->
+    </section><!-- /.portfoilo -->
+
+{#<section id="portfolio">#}
+{#    <!-- Big Section Background Title -->#}
+{#    <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">#}
+{#        portfolio#}
+{#    </h1>#}
+{##}
+{#    <div class="container">#}
+{#        <div class="section-holder">#}
+{#            <div class="row">#}
+{#                <div class="col-sm-12">#}
+{#                    <div class="icon-holder i-size-big">#}
+{#                        <i class="ion-ios-paper-outline"></i>#}
+{#                    </div>#}
+{#                    <h3> My Works </h3>#}
+{#                </div><!-- /.col-sm-12 -->#}
+{#            </div><!-- /.row -->#}
+{##}
+{#            <div class="row">#}
+{#                <div class="port-holder">#}
+{#                    <?php#}
+{#                    $even = 0;#}
+{#                    foreach ($data->project as $name => $project) {#}
+{#                        $even++;#}
+{#                        if ($even % 2 == 1) { ?>#}
+{#                            <div class="owl-item">#}
+{#                        <?php } ?>#}
+{##}
+{##}
+{#                        <div class="col-sm-12">#}
+{#                            <div class="box-it">#}
+{#                                <?php#}
+{#                                if ($project->image == '') {#}
+{#                                    $project->image = "default.jpg";#}
+{#                                }#}
+{#                                ?>#}
+{#                                <a href="includes/image/project/<?php echo $project->image; ?>" class="mfp-image popup-it">#}
+{#                                    <img src="includes/image/project/<?php echo $project->image; ?>" class="img-responsive"#}
+{#                                         alt="">#}
+{#                                    <div class="box-inner">#}
+{#                                        <div class="i-size-med">#}
+{#                                            <i class="ion-ios-photos-outline"></i>#}
+{#                                        </div>#}
+{#                                        <h4 class="title">#}
+{#                                            <?php echo $name; ?>#}
+{#                                        </h4>#}
+{#                                        <h5 class="tag"> <?php echo $project->category; ?> </h5>#}
+{#                                    </div>#}
+{#                                </a>#}
+{#                                    <div class="col btn-group">#}
+{#                                        <a href="projects/<?php echo $name;?>" target="_blank"><button class="btn btn-default"><i class="ion-eye"></i>View</button></a>#}
+{#                                        <a href="<?php echo $project->url;?>" target="_blank"><button class="btn btn-default"  target="_blank"><i class="ion-android-download" ></i>Download</button></a>#}
+{#                                    </div>#}
+{#                            </div>#}
+{#                        </div><!-- /.col-sm-12 -->#}
+{##}
+{#                        <?php#}
+{#                        if ($even % 2 == 1) { ?>#}
+{#                            </div>#}
+{#                        <?php }#}
+{#                    } ?>#}
+{##}
+{#                </div><!-- /.port-holder -->#}
+{#            </div><!-- /.section-holder -->#}
+{##}
+{#        </div><!-- /.row -->#}
+{##}
+{#    </div><!-- /.container -->#}
+{#</section><!-- /.portfoilo -->#}
+
+<section id="fun-fact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-holder">
+                        <div class="text-center">
+                            <div class="icon-holder-center i-size-big">
+                                <ion-icon name="ios-barcode"></ion-icon>
+                            </div>
+                        </div>
+                        <h3 class="text-center"> Fun Facts </h3>
+                        <ul class="counter">
+                            {% for fact in facts %}
+                            <li>
+                                <div class="counter-icon i-size-med">
+                                    <ion-icon name="{{ fact.icon }}"></ion-icon>
+                                </div>
+                                <h1 class="counter-data">{{ fact.quantity }}</h1>
+                                <h4>{{ fact.details }}</h4>
+                            </li><!-- /.counter list -->
+                            {% endfor %}
+                        </ul><!-- /.counter -->
+                    </div><!-- /.section-holder -->
+                </div><!-- /.col-sm-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.fun-fact -->
+
+<section id="contact">
+    <!-- Big Section Background Title -->
+    <h1 class="section-big-title til hidden-xs hidden-sm" data-in-effect="fadeInUp" data-out-effect="fadeInDown">
+        contact</h1><!-- /. large title -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="section-holder texture">
+                    <!-- draw line art -->
+                    <div class="line-art-top">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.top line -->
+                    <div class="line-art-bottom">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.bottom line -->
+                    <div class="line-art-left">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.left line -->
+                    <div class="line-art-right">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- /.right line -->
+
+                    <div class="icon-holder i-size-big">
+                        <ion-icon name="wine"></ion-icon>
+                    </div>
+                    <h3> Lets Talk </h3>
+                    <h5>Location: {{ info.address }}</h5>
+                    <h5>Email: {{ info.email }}</h5>
+                    <h5>Phone: {{ info.phone }}</h5>
+                    <a href="https://maps.google.com/maps?q=Dhanmondi+27+No+Bus+Stop" class="mfp-iframe popup-it"><h4
+                                class="map-open"> Open Map </h4></a>
+                    <div class="social-links">
+                        {% for social in socials %}
+                        <a href="{{ social.link }}" target="_blank">
+                            <ion-icon name="{{ social.icon }}" size="large"></ion-icon>
+                        </a>
+                        {% endfor %}
+                    </div><!-- /.social-links -->
+                </div><!-- /.section-holder -->
+            </div><!-- /.col-sm-4 -->
+
+            <div class="col-sm-8">
+                <div class="section-holder">
+                    <div class="icon-holder i-size-big">
+                        <ion-icon name="mail"></ion-icon>
+                    </div>
+                    <h3> Reach me </h3>
+                    <form class="form-horizontal" id="contactForm">
+                        <div class="form-group">
+
+                            <div class="col-sm-6">
+
+                                <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
+                                <span class="form-control-feedback">
+                                        <ion-icon name="grid"></ion-icon>
+                                    </span>
+
+                            </div>
+
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Your Email"
+                                       required>
+
+                                <span class="form-control-feedback">
+                                        <ion-icon name="grid"></ion-icon>
+                                    </span>
+                            </div>
+                        </div><!-- /.form-group -->
+
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" id="inputPhone" placeholder="Phone (optional)">
+
+                                <span class="form-control-feedback">
+                                        <ion-icon name="grid"></ion-icon>
+                                    </span>
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" id="inputSubject" placeholder="Subject"
+                                       required>
+
+                                <span class="form-control-feedback">
+                                        <ion-icon name="grid"></ion-icon>
+                                    </span>
+                            </div>
+                        </div><!-- /.form-group -->
+                        <div class="form-group message">
+                            <div class="col-sm-12">
+                                <textarea class="form-control" id="inputMessage" rows="4" placeholder="Message"
+                                          required></textarea>
+
+                                <span class="form-control-feedback">
+                                        <ion-icon name="grid"></ion-icon>
+                                    </span>
+                            </div>
+                        </div><!-- /.form-group -->
+                        <div class="form-group">
+                            <div class="col-sm-8">
+                                <button type="submit" id="form-submit" class="btn btn-cl">SEND MESSAGE</button>
+                            </div>
+                        </div><!-- /.form-group -->
+                        <div class="clearfix"></div>
+                    </form><!-- /.contact-form -->
+                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                </div><!-- /.section-holder -->
+            </div><!-- /.col-sm-8 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</section><!-- /.contact -->
+
+<!-- js -->
+<script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.lettering.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.textillate.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.waypoints.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.counterup.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/wow.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/tweetie.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/smoothscroll.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/jquery.nav.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/validator.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/script.js' %}" type="text/javascript"></script>
+<script src="{% static 'contact/contact.js' %}"></script>
+
+<!-- loader js -->
+<script type="text/javascript">
+    $(window).load(function () {
+        $("#loader").delay(2000).fadeOut("slow");
+    });
+</script>
+
+</body>
+
+
+<!-- Mirrored from template.bulkstudio.com/classic/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 27 Aug 2018 08:34:05 GMT -->
+</html>

@@ -1,0 +1,339 @@
+{
+  "info": {
+    "name": "Tanveer Hoque",
+    "designation": "Developer",
+    "job_title": "freelancer",
+    "dob": "1st January 1997",
+    "address": "Dhanmondi, Dhaka",
+    "nationality": "Bangladeshi",
+    "phone": "+8801685534877",
+    "email": "thaque20@gmail.com",
+    "username": "tanveer",
+    "password": "tanveer",
+    "about": "An ambitious developer with a passion for project based works, and who would like to join a team of like-minded developers. I have much experience of creating logical and innovative solutions to complex problems. I am thorough and precise in everything I do, and have a keen interest in technology, mobile applications and user experience. As someone who takes responsibility for his own personal development, I am continually evaluating and upgrading my skills so that I stay at the cutting edge of development. I am a natural problem solver, who has proven myself by successfully completing projects. Right now I am looking for a suitable position with a company where outstanding performance is recognised and where I can work on a variety of high profile projects."
+  },
+  "social": [
+    {
+      "name": "facebook",
+      "link": "https://www.facebook.com/thaque20"
+    },
+    {
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/tanveer-hoque-9b1b97109/"
+    },
+    {
+      "name": "github",
+      "link": "https://github.com/thaque20"
+    },
+    {
+      "name": "google",
+      "link": "https://plus.google.com/107839984673542160052"
+    },
+    {
+      "name": "twitter",
+      "link": "https://twitter.com/tanveer_haque"
+    }
+  ],
+  "hobby": [
+    "League of Legends",
+    "Coding",
+    "Project",
+    "Music",
+    "Movies"
+  ],
+  "skill": {
+    "language": {
+      "C": "90",
+      "C++": "60",
+      "JAVA": "85",
+      "Python": "80",
+      "PHP": "95",
+      "Arduino": "80",
+      "html": "95",
+      "html5": "80",
+      "SQL": "80",
+      "Javascript": "80",
+      "C#": "85",
+      "Shell Script": "70",
+      "Assembly Language": "70",
+      "Prolog": "50",
+      "Braille": "60"
+    },
+    "framework": {
+      "laravel": "80",
+      "angular": "50",
+      "SEO": "30",
+      ".NET": "80",
+      "Android": "75",
+      "Android Volley": "60",
+      "JavaFX": "75",
+      "Swing": "95",
+      "Bootstrap": "80",
+      "JQuery": "85",
+      "VueJS": "70"
+    },
+    "software": {
+      "Cisco Packet Tracing": "60",
+      "Microsoft Word": "80",
+      "Microsoft Powerpoint": "80",
+      "Microsoft Excel": "70",
+      "Libre Office Writer": "60",
+      "Prezi": "85"
+    },
+    "multimedia": {
+      "Photoshop": "85",
+      "Illustrator": "80",
+      "Cyberlink PowerDirector": "60"
+    },
+    "security": {
+      "SQL Injection": "70",
+      "DDoS Testing": "70",
+      "BurpSuite": "30",
+      "Vega": "30",
+      "Havij": "85"
+    },
+    "os": {
+      "Windows": "95",
+      "Linux": "75",
+      "Mac": "80"
+    },
+    "typing": {
+      "wps": "52"
+    }
+  },
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science & Engineering",
+      "institution": "Daffodil International University",
+      "start": "2015",
+      "end": "Present",
+      "pass": "2019",
+      "gpa": "3.51",
+      "description": ""
+    },
+    {
+      "degree": "H.S.C in Science",
+      "institution": "Dania College",
+      "start": "2012",
+      "end": "2013",
+      "pass": "2014",
+      "gpa": "5.00",
+      "description": ""
+    },
+    {
+      "degree": "S.S.C in Science",
+      "institution": "Kanchpur Omar Ali High School",
+      "start": "2010",
+      "end": "2011",
+      "pass": "2012",
+      "gpa": "5.00",
+      "description": ""
+    }
+  ],
+  "training": {
+    "Web Security & Pentesting": {
+      "institution": "Arena Web Security",
+      "year": "2017",
+      "topic": [
+        "SQL Injection",
+        "Website Security Testing"
+      ]
+    },
+    "Advanced Graphics Design & Outsourcing": {
+      "institution": "Bangladesh Computer Council",
+      "year": "2015",
+      "topic": [
+        "Photoshop",
+        "Illustrator"
+      ]
+    }
+  },
+  "work": [
+    {
+      "role": "Developer",
+      "institution": "DIU",
+      "start": "2016",
+      "end": "Present",
+      "description": "Given two spirit very unto firmament. Fourth and she\"d their fruit together."
+    }
+  ],
+  "project": {
+    "fotoglitz": {
+      "url": "http://fotoglitz.com/",
+      "category": "Webapp",
+      "image": "fotoglitz.png",
+      "feature": [
+        "Mailing system",
+        "Backend",
+        "Admin Panel"
+      ]
+    },
+    "Eboss": {
+      "url": "https://github.com/thaque20/EBoss",
+      "category": "Web App",
+      "image": "eboss.png",
+      "feature": [
+        "Raw PHP admin panel",
+        "Office Management system",
+        "Todo Task"
+      ]
+    },
+    "Blood Bank Management System": {
+      "url": "https://github.com/thaque20/Blood-Bank",
+      "category": "Web App",
+      "image": "blood-bank.png",
+      "feature": [
+        "Raw PHP admin panel",
+        "Blood Donor/ Reciever",
+        "Todo Task"
+      ]
+    },
+    "Calc": {
+      "url": "https://github.com/thaque20/Calc",
+      "category": "Web App",
+      "image": "calc.png",
+      "feature": [
+        "Full featured html/jquery/bootstrap Calculator",
+        "Simple Shop Management"
+      ]
+    },
+    "Smart Calc": {
+      "url": "https://github.com/thaque20/SmartCal",
+      "category": "Desktop App/tts/Swing",
+      "image": "",
+      "feature": [
+        "Voice Controlled Calculator"
+      ]
+    },
+    "Snake n Ladders": {
+      "url": "https://github.com/thaque20/Snake-n-Ladders",
+      "category": "Desktop App/Swhing",
+      "image": "snake-n-ladders.png",
+      "feature": [
+        "Snake n Ladders game"
+      ]
+    },
+    "IQ Tester": {
+      "url": "https://github.com/thaque20/IQ-Tester",
+      "category": "Desktop App/Swing",
+      "image": "iq-tester.png",
+      "feature": [
+        "Test iq",
+        "match according to some famous persons"
+      ]
+    },
+    "Simulation Web App": {
+      "url": "https://github.com/thaque20/Simulation-Web-App",
+      "category": "Web App/Raw PHP",
+      "image": "simulation-web-app.png",
+      "feature": [
+        "simulate using No. of customers, max waiting time, max service time"
+      ]
+    },
+    "qFinder": {
+      "url": "https://github.com/thaque20/qFinder",
+      "category": "Android App",
+      "image": "qFinder.png",
+      "feature": [
+        "Find your lost products"
+      ]
+    },
+    "Portfolio Generator": {
+      "url": "https://google.com",
+      "category": "Android",
+      "image": "portfolio.png",
+      "feature": [
+        "Create portfolio",
+        "Search for talents",
+        "Download CV"
+      ]
+    },
+    "Resume": {
+      "url": "https://google.com",
+      "category": "Android",
+      "image": "",
+      "feature": [
+        "personal portfolio",
+        "Upgrading"
+      ]
+    },
+    "Who is the thief App": {
+      "url": "https://github.com/thaque20/Who-is-the-thief",
+      "category": "Android App",
+      "image": "",
+      "feature": [
+        "Old classic Chor police game"
+      ]
+    },
+    "Classroom": {
+      "url": "https://github.com/thaque20/Classroom-App",
+      "category": "Android",
+      "image": "",
+      "feature": [
+        "Class routine",
+        "Notice board",
+        "Messaging"
+      ]
+    },
+    "Power Timer": {
+      "url": "https://github.com/thaque20/Power-Timer",
+      "category": ".NET/c#",
+      "image": "",
+      "feature": [
+        "Windows Timer for shut down/restart/hibernate"
+      ]
+    },
+    "Resistor Calculator": {
+      "url": "https://github.com/thaque20/Resistor-Calculator",
+      "category": "swing/Java/Desktop App",
+      "image": "",
+      "feature": [
+        "4 band resistor conversion",
+        "5 band resistor conversion"
+      ]
+    },
+    "Resistor Calculator App": {
+      "url": "https://github.com/thaque20/Resistor-Calculator-App",
+      "category": "Android App",
+      "image": "",
+      "feature": [
+        "4 Band resistor conversion"
+      ]
+    },
+    "Problem Solving": {
+      "url": "https://github.com/thaque20/Algorithm",
+      "category": "Algorithm",
+      "image": "algorithm.png",
+      "feature": [
+        "Timus online Solution",
+        "URI Solution"
+      ]
+    }
+  },
+  "fact": {
+    "project": "30",
+    "client": "10",
+    "work": "5090",
+    "award": "4"
+  },
+  "testimonial": [
+    {
+      "name": "Anthony Doe",
+      "image": "testi1.jpg",
+      "designation": "CEO, XB Inc",
+      "message": "Perfect, this is exactly what i needed for me Really great work"
+    },
+    {
+      "name": "Jenna Doe",
+      "image": "testi2.jpg",
+      "designation": "Owner, Fashion Store",
+      "message": "Very much satisfied by the work. Highly recommended!"
+    },
+    {
+      "name": "Michael Hussey",
+      "image": "testi3.jpg",
+      "designation": "Manager, Basic Consultants",
+      "message": "Good work done by the designer. Really clean and organized approach."
+    }
+  ]
+}
