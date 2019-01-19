@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css"/>
     <link rel="stylesheet" href="{% static 'css/animate.css' %}" type="text/css"/>
     <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
-{#    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}" type="text/css"/>#}
+    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}" type="text/css"/>
     <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" type="text/css"/>
     <link rel="stylesheet" href="{% static 'css/owl.transitions.css' %}" type="text/css"/>
     <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" type="text/css"/>
@@ -53,7 +53,7 @@
 </nav><!-- /. menu -->
 
 <!--    <section id="home" class="header" style="background-image: url('assets/images/cover.jpg')">-->
-<section id="home" class="header" style="background-image: url({% static 'image/pro6-bw.jpg' %})">
+<section id="home" class="header" style="background-image: url({% static 'image/profile/pro6.jpg' %}); -webkit-filter: grayscale(1); filter: grayscale(1);">
     <div class="sector">
         <div class="box">
             <h1> T </h1> <!-- name first char -->
@@ -104,7 +104,7 @@
                     <!-- /.right line -->
 
                     <div class="img-holder">
-                        <img src="{% static 'image/pro1-bw.jpg' %}" class="img-responsive img-circle" alt="John Doe">
+                        <img src="{% static 'image/profile/pro1.jpg' %}" class="img-responsive img-circle" alt="John Doe" style="-webkit-filter: grayscale(1); filter: grayscale(1);">
                     </div>
                     <div class="sep-mini"></div>
                     <h4> Name: {{ info.name }} </h4>
@@ -148,7 +148,10 @@
                     <!--                        <p> bicycling | gaming | hiking | photography </p>-->
                     <p>
                         {% for hobby in hobbies %}
-                            {{ hobby }} |
+                            {{ hobby }}
+                            {% if not forloop.last %}
+                                |
+                            {% endif %}
                         {% endfor %}
 
                     </p>
@@ -292,7 +295,10 @@
                                         <p>
                                             Topics covered:
                                             {% for topic in  training.training_topic_set.all %}
-                                                {{ topic.topic }},
+                                                {{ topic.topic }}
+                                                {% if not forloop.last %}
+                                                    ,
+                                                {% endif %}
                                             {% endfor %}
                                         </p>
                                     </div>
@@ -391,7 +397,7 @@
                     <div class="testi-holder owl-carousel owl-theme">
                         {% for testimonial in testimonials %}
                             <div class="testi-item">
-                                <img src="{% static 'images/testimonial/' %}{{ testimonial.image }}" class="img-circle" alt="Anthony Doe"/>
+                                <img src="{% static 'images/testimonial/' %}{{ testimonial.image }}" class="img-circle" alt="Anthony Doe" style="-webkit-filter: grayscale(1); filter: grayscale(1);"/>
                                 <p> {{ testimonial.message }} </p>
                                 <div class="testi-bottom">
                                     <div class="i-size-small testi-icon">
@@ -501,7 +507,7 @@
                             <div class="col-sm-12">
                                 <div class="box-it">
                                     <a href="{% static 'image/project/' %}{{ project.image }}" class="mfp-image popup-it">
-                                        <img src="{% static 'image/project/' %}{{ project.image }}" class="img-responsive" alt="">
+                                        <img src="{% static 'image/project/' %}{{ project.image }}" class="img-responsive" alt="" style="width:auto; height: 153px; object-fit: contain;margin-left: auto; margin-right: auto;">
                                         <div class="box-inner">
                                             <div class="i-size-med">
                                                 <ion-icon name="photos"></ion-icon>

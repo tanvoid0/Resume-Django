@@ -112,6 +112,7 @@ class Project(models.Model):
     url = models.CharField(max_length=200)
     category = models.ForeignKey(Project_Category, on_delete=models.CASCADE)
     image = models.CharField(max_length=200)
+    icon = models.CharField(max_length=100, default=None, blank=True, null=True)
     language_and_framework = models.CharField(max_length=200, default=None, blank=True, null=True)
     description = models.TextField(default=None, blank=True, null=True)
 
