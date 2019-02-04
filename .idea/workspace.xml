@@ -2,9 +2,215 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83adb1c7-ee13-4180-b328-4ead145d3044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/classy-nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/classycb9b.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/classycb9b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/classycb9b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/classycb9b.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/bg-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/caution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/correct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/m1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/m2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/m3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/m4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/presentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/img/core-img/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/js/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/js/bootstrap/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/js/plugins/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/raw/pixel/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Home/templates/tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/classy-nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/classycb9b.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/classycb9b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/classycb9b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/classycb9b.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/bg-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/caution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/correct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/m1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/m2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/m3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/m4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/presentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/img/core-img/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/js/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/js/bootstrap/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/js/plugins/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/classy-nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/owl.video.play.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/classycb9b.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/classycb9b.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/classycb9b.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/classycb9b.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/fontawesome-webfont3e6e.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/fontawesome-webfont3e6e.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/fontawesome-webfont3e6e.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/fontawesome-webfont3e6e.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/fontawesome-webfont3e6e.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/bg-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/caution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/correct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/cursor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/m1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/m2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/m3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/m4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/presentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/img/core-img/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/index-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/js/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/js/bootstrap/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/js/plugins/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/pixel/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Resume.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Resume.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Home/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Home/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resume/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resume/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resume/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resume/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resume/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resume/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/OwlCarousel2-2.3.4.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/OwlCarousel2-2.3.4.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/weditor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Home/templates/weditor.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,19 +243,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resume/settings.py">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+            <state relative-caret-position="109">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile.windows">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Home/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -63,48 +287,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/urls.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resume/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+            <state relative-caret-position="294">
+              <caret line="106" column="52" lean-forward="true" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+        <entry file="file://$PROJECT_DIR$/Resume/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
+                <element signature="e#222#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/test.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/portfolio/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resume/urls.py">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="2652">
+              <caret line="156" column="6" selection-end-line="395" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/index-2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="387" selection-end-column="9" />
               <folding>
-                <element signature="e#630#662#0" expanded="true" />
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -121,11 +355,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dateF</find>
-      <find>end</find>
-      <find>description</find>
-      <find>training</find>
-      <find>../Home/static/</find>
       <find>st</find>
       <find>education</find>
       <find>title</find>
@@ -148,6 +377,14 @@
       <find>project</find>
       <find>download</find>
       <find>usern</find>
+      <find>training</find>
+      <find>/.row --&gt;</find>
+      <find>@import</find>
+      <find>digital agency</find>
+      <find>creative agency</find>
+      <find>img</find>
+      <find>skill-education</find>
+      <find>about</find>
     </findStrings>
     <replaceStrings>
       <replace>IntegerF</replace>
@@ -160,31 +397,46 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data.json" />
-        <option value="$PROJECT_DIR$/Resume/urls.py" />
-        <option value="$PROJECT_DIR$/Home/templates/index.html" />
         <option value="$PROJECT_DIR$/Home/admin.py" />
         <option value="$PROJECT_DIR$/templates/weditor.html" />
         <option value="$PROJECT_DIR$/Home/static/css/owl.carousel.min.css" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/Home/models.py" />
-        <option value="$PROJECT_DIR$/Home/utils.py" />
         <option value="$PROJECT_DIR$/templates/cv.html" />
         <option value="$PROJECT_DIR$/templates/invoice.html" />
-        <option value="$PROJECT_DIR$/templates/test.html" />
         <option value="$PROJECT_DIR$/Home/urls.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/Home/views.py" />
-        <option value="$PROJECT_DIR$/Resume/settings.py" />
         <option value="$PROJECT_DIR$/Procfile.windows" />
+        <option value="$PROJECT_DIR$/portfolio/models.py" />
+        <option value="$PROJECT_DIR$/portfolio/templates/test.html" />
+        <option value="$PROJECT_DIR$/Home/utils.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/Resume/urls.py" />
+        <option value="$PROJECT_DIR$/portfolio/urls.py" />
+        <option value="$PROJECT_DIR$/portfolio/views.py" />
+        <option value="$PROJECT_DIR$/portfolio/templates/pixel/css/style.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/style.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/owl.carousel.min.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/magnific-popup.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/classy-nav.css" />
+        <option value="$PROJECT_DIR$/portfolio/static/css/animate.css" />
+        <option value="$PROJECT_DIR$/portfolio/templates/pixel/index-2.html" />
+        <option value="$PROJECT_DIR$/portfolio/templates/portfolio.html" />
+        <option value="$PROJECT_DIR$/Home/templates/index.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/runtime.txt" />
+        <option value="$PROJECT_DIR$/Resume/wsgi.py" />
+        <option value="$PROJECT_DIR$/Resume/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="917" />
+    <option name="width" value="1010" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -207,7 +459,18 @@
             <path>
               <item name="Resume-Django" type="b2602c69:ProjectViewProjectNode" />
               <item name="Resume-Django" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resume-Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resume-Django" type="462c0819:PsiDirectoryNode" />
               <item name="Resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Resume-Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resume-Django" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,21 +485,23 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Github\Resume-Django\Home\static\js" />
-      <recent name="D:\Workspace\Github\Resume-Django\Home\static\css" />
-      <recent name="D:\Workspace\Github\Resume-Django\Home\static\image\cv" />
-      <recent name="D:\Workspace\Web\Resume\Home\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\static" />
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\templates\pixel\css" />
+      <recent name="D:\Workspace\Github\Resume-Django\Home\templates" />
+      <recent name="D:\Workspace\Github\Resume-Django\Home" />
       <recent name="D:\Workspace\Github\Resume-Django\Home\static\file" />
-      <recent name="D:\Workspace\Github\Resume-Django\templates" />
-      <recent name="D:\Workspace\Web\Resume\Home\static" />
-      <recent name="D:\Workspace\Web\Resume\Home" />
-      <recent name="D:\Workspace\Web\Resume\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\static\css" />
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\static" />
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\templates" />
+      <recent name="D:\Workspace\Github\Resume-Django" />
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,24 +561,27 @@
       <workItem from="1547881122377" duration="1894000" />
       <workItem from="1547904234458" duration="12791000" />
       <workItem from="1547902921341" duration="58000" />
-      <workItem from="1547903006908" duration="5565000" />
+      <workItem from="1547903006908" duration="9563000" />
+      <workItem from="1548670778053" duration="12430000" />
+      <workItem from="1549199094693" duration="4146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62221000" />
+    <option name="totallyTimeSpent" value="82795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="917" y="0" width="1010" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26695842" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.19263157" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="manage.py@Resume" order="0" weight="0.41028446" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4595186" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4595186" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
@@ -331,18 +599,18 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24507658" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.50958467" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="manage.py@Resume" order="0" weight="0.41028446" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.4595186" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4595186" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3238512" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.33479214" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.33479214" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -357,32 +625,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/qFinder" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3043">
-          <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/e913b3c5-0669-4164-baa4-4dbf14a9eb9d">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>e913b3c5-0669-4164-baa4-4dbf14a9eb9d</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="204.0" y="280.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home/static/css/owl.transitions.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -396,7 +644,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/weditor.html">
+    <entry file="file://$PROJECT_DIR$/Home/templates/weditor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
@@ -433,37 +681,7 @@
     <entry file="file://$PROJECT_DIR$/Home/static/js/owl.carousel.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Home/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#div#0;n#div#1;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cv.html">
+    <entry file="file://$PROJECT_DIR$/Home/templates/cv.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="140" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="140" />
@@ -473,15 +691,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/invoice.html">
+    <entry file="file://$PROJECT_DIR$/Home/templates/invoice.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="140" selection-start-line="5" selection-start-column="140" selection-end-line="5" selection-end-column="140" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/test.html">
+    <entry file="file://$PROJECT_DIR$/Procfile.windows">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/templates/raw/pixel/js/jquery/jquery-2.2.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="138" lean-forward="true" selection-start-line="101" selection-end-line="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resume/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/templates/tests.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/js/jquery/jquery-2.2.4.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resume/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="252" column="9" lean-forward="true" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-start-column="2" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/owl.video.play.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/owl.carousel.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2765">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/magnific-popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6879">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49742">
+          <caret line="2926" lean-forward="true" selection-start-line="2926" selection-end-line="2926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/classy-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12795">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29900">
+          <caret line="5" column="820" lean-forward="true" selection-start-line="5" selection-start-column="820" selection-end-line="5" selection-end-column="820" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/css/owl.video.play.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/js/jquery/jquery-2.2.4.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="156" column="6" selection-end-line="395" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/templates/pixel/index-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="387" selection-end-column="9" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Home/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,51 +945,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resume/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resume/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#222#231#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resume/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="127" column="32" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.windows">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        <state relative-caret-position="294">
+          <caret line="106" column="52" lean-forward="true" selection-start-line="106" selection-start-column="52" selection-end-line="106" selection-end-column="52" />
         </state>
       </provider>
     </entry>
