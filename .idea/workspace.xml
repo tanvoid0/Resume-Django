@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83adb1c7-ee13-4180-b328-4ead145d3044" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0002_auto_20190108_0105.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0002_auto_20190108_0105.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0002_auto_20190108_0105.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0003_auto_20190108_0112.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0003_auto_20190108_0112.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0003_auto_20190108_0112.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0004_auto_20190108_0116.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0004_auto_20190108_0116.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0004_auto_20190108_0116.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0005_auto_20190108_0119.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0005_auto_20190108_0119.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0005_auto_20190108_0119.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0006_auto_20190108_0120.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0006_auto_20190108_0120.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0006_auto_20190108_0120.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0007_auto_20190108_0125.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0007_auto_20190108_0125.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0007_auto_20190108_0125.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0008_auto_20190108_0156.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0008_auto_20190108_0156.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0008_auto_20190108_0156.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0009_social_icon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0009_social_icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0009_social_icon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0010_auto_20190108_0207.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0010_auto_20190108_0207.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0010_auto_20190108_0207.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0011_project_language_and_framework.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0011_project_language_and_framework.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0011_project_language_and_framework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0012_auto_20190108_0216.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0012_auto_20190108_0216.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0012_auto_20190108_0216.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0013_project_description.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0013_project_description.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0013_project_description.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0014_auto_20190119_0357.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0014_auto_20190119_0357.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0014_auto_20190119_0357.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0015_project_icon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/0015_project_icon.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0015_project_icon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Home/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prescription" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0002_remove_project_language_and_framework.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0002_remove_project_language_and_framework.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0002_remove_project_language_and_framework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0003_auto_20190205_2156.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/0003_auto_20190205_2156.py" beforeDir="false" afterPath="$PROJECT_DIR$/db_backup/0003_auto_20190205_2156.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resume/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Resume/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +26,10 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
     </expand>
     <select />
   </component>
@@ -85,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            <state relative-caret-position="364">
+              <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Resume/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -214,7 +189,6 @@
         <option value="$PROJECT_DIR$/Resume/wsgi.py" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/Home/templates/index.html" />
-        <option value="$PROJECT_DIR$/Resume/settings.py" />
         <option value="$PROJECT_DIR$/Home/static/portfolio/css/style.css" />
         <option value="$PROJECT_DIR$/Home/views.py" />
         <option value="$PROJECT_DIR$/portfolio/urls.py" />
@@ -222,6 +196,7 @@
         <option value="$PROJECT_DIR$/portfolio/models.py" />
         <option value="$PROJECT_DIR$/portfolio/views.py" />
         <option value="$PROJECT_DIR$/portfolio/templates/portfolio.html" />
+        <option value="$PROJECT_DIR$/Resume/settings.py" />
       </list>
     </option>
   </component>
@@ -261,6 +236,11 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Resume-Django" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Resume-Django" type="462c0819:PsiDirectoryNode" />
+              <item name="Resume" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -278,19 +258,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Github\Resume-Django\db_backup" />
+      <recent name="D:\Workspace\Github\Resume-Django\Home\static\portfolio" />
+      <recent name="D:\Workspace\Github\Resume-Django" />
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\static" />
+      <recent name="D:\Workspace\Github\Resume-Django\portfolio\templates\pixel\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\Github\Resume-Django\portfolio\static\css" />
       <recent name="D:\Workspace\Github\Resume-Django\portfolio\static" />
       <recent name="D:\Workspace\Github\Resume-Django\portfolio\templates" />
       <recent name="D:\Workspace\Github\Resume-Django" />
       <recent name="D:\Workspace\Github\Resume-Django\portfolio" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Github\Resume-Django\Home\static\portfolio" />
-      <recent name="D:\Workspace\Github\Resume-Django" />
-      <recent name="D:\Workspace\Github\Resume-Django\portfolio\static" />
-      <recent name="D:\Workspace\Github\Resume-Django\portfolio\templates\pixel\css" />
-      <recent name="D:\Workspace\Github\Resume-Django\Home\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,24 +333,25 @@
       <workItem from="1547903006908" duration="9563000" />
       <workItem from="1548670778053" duration="12430000" />
       <workItem from="1549199094693" duration="13770000" />
-      <workItem from="1549495777341" duration="316000" />
+      <workItem from="1549495777341" duration="985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92735000" />
+    <option name="totallyTimeSpent" value="93404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1125" y="0" width="802" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2574124" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2574124" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="manage.py@Resume" order="0" visible="true" weight="0.41684902" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4595186" />
+      <window_info anchor="bottom" id="Terminal" order="4" visible="true" weight="0.4595186" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32932165" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
@@ -381,7 +362,7 @@
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3665208" />
+      <window_info anchor="right" id="Database" order="1" visible="true" weight="0.3652291" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
@@ -659,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resume/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -756,8 +730,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Home/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="364">
+          <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resume/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
         </state>
       </provider>
     </entry>
